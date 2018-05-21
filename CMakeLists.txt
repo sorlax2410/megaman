@@ -128,6 +128,11 @@ endif( WIN32 )
 set(GAME_SRC
   Classes/AppDelegate.cpp
   Classes/HelloWorldScene.cpp
+        Classes/screens/combat.cpp
+        Classes/screens/main.cpp
+        Classes/screens/shooting.cpp
+        Classes/screens/move.cpp
+        Classes/screens/injured.cpp
   ${PLATFORM_SPECIFIC_SRC}
 )
 

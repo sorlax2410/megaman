@@ -1,5 +1,6 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
+#include "screens/main.h"
 
 USING_NS_CC;
 
@@ -55,7 +56,9 @@ bool HelloWorld::init()
     this->addChild(label, 1);
 
     // add "HelloWorld" splash screen"
-    auto sprite = Sprite::create("HelloWorld.png");
+    //auto sprite = Sprite::create("HelloWorld.png");
+	CustomSprite* sprite = CustomSprite::createWithFile("HelloWorld.png");
+	
 
     // position the sprite on the center of the screen
     sprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
@@ -67,7 +70,7 @@ bool HelloWorld::init()
 }
 
 
-void HelloWorld::menuCloseCallback(Ref* pSender)
+void HelloWorld::menuCloseCallback(cocos2d::Ref* pSender)
 {
     //Close the cocos2d-x game scene and quit the application
     Director::getInstance()->end();
@@ -83,3 +86,127 @@ void HelloWorld::menuCloseCallback(Ref* pSender)
     
     
 }
+
+void HelloWorld::changeScreen(Ref*sender)
+{
+	auto director = Director::getInstance();
+	auto scene = MainScene::createScene();
+	director->runWithScene(scene);
+}
+
+
+CustomSprite::CustomSprite() :
+hitted(false),
+touchListener(nullptr),
+touchBeganPosition(Vec2::ZERO),
+touchMovePosition(Vec2::ZERO),
+touchEndPosition(Vec2::ZERO)
+{}
+
+CustomSprite::~CustomSprite()
+{
+	_eventDispatcher->removeEventListener(touchListener);
+	CC_SAFE_RELEASE_NULL(touchListener);
+}
+
+CustomSprite*CustomSprite::createWithFile(const std::string &filename)
+{
+	CustomSprite*sprite = new CustomSprite();
+
+	if(sprite && sprite->initWithFile(filename))
+	{
+		sprite->autorelease();
+		sprite->initInstance();
+		return sprite;
+	}
+
+	CC_SAFE_DELETE(sprite);
+	return nullptr;
+}
+
+void CustomSprite::initInstance()
+{
+	touchListener = EventListenerTouchOneByOne::create();
+	CC_SAFE_RETAIN(touchListener);
+	touchListener->setSwallowTouches(true);
+	touchListener->onTouchBegan = CC_CALLBACK_2(CustomSprite::onTouchBegan, this);
+	touchListener->onTouchMoved = CC_CALLBACK_2(CustomSprite::onTouchMoved, this);
+	touchListener->onTouchEnded = CC_CALLBACK_2(CustomSprite::onTouchEnded, this);
+	touchListener->onTouchCancelled = CC_CALLBACK_2(CustomSprite::onTouchCancelled, this);
+	_eventDispatcher->addEventListenerWithSceneGraphPriority(touchListener, this);
+}
+
+bool CustomSprite::onTouchBegan(Touch*touch, Event*unusedEvent)
+{
+	hitted = false;
+	touchBeganPosition = touch->getLocation();
+	if(hitTest(touchBeganPosition))
+		hitted = true;
+	if(!hitted)
+		return false;
+	pushDownEvent();
+	return true;
+}
+
+bool CustomSprite::hitTest(const Vec2 &point)
+{
+	Vec2 nodeSpace = convertToNodeSpace(point);
+	Rect bb;
+	bb.size = _contentSize;
+	if(bb.containsPoint(nodeSpace))
+		return true;
+	return false;
+}
+
+void CustomSprite::onTouchMoved(Touch*touch, Event*unusedEvent)
+{
+	touchMovePosition = touch->getLocation();
+	moveEvent();
+}
+
+void CustomSprite::onTouchEnded(Touch*touch, Event*unusedEvent)
+{
+	touchEndPosition = touch->getLocation();
+	if(hitTest(touchEndPosition))
+		releaseUpEvent();
+	else
+		cancelUpEvent();
+}
+
+void CustomSprite::onTouchCancelled(Touch*touch, Event*unusedEvent)
+{
+	cancelUpEvent();
+}
+
+void CustomSprite::pushDownEvent()
+{
+	this->retain();
+	if(touchEventCallback)
+		touchEventCallback(this, TouchEventType::BEGAN);
+	this->release();
+}
+
+void CustomSprite::moveEvent()
+{
+	this->retain();
+	if(touchEventCallback)
+		touchEventCallback(this, TouchEventType::MOVED);
+	this->release();
+}
+
+void CustomSprite::releaseUpEvent()
+{
+	this->retain();
+	if(touchEventCallback)
+		touchEventCallback(this, TouchEventType::ENDED);
+	this->release();
+}
+
+void CustomSprite::cancelUpEvent()
+{
+	this->retain();
+	if(touchEventCallback)
+		touchEventCallback(this, TouchEventType::CANCELED);
+	this->release();
+}
+
