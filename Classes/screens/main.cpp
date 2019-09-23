@@ -13,6 +13,9 @@ bool MainScene::init()
 	if(!Scene::init()) return false;
 	auto visibleSize = Director::getInstance()->getVisibleSize();
 	Vec2 origin = Director::getInstance()->getVisibleOrigin();
+    auto audio = CocosDenshion::SimpleAudioEngine::getInstance();
+    audio->preloadBackgroundMusic("sound/mega-man-zx/02 Awake.mp3");
+    audio->playBackgroundMusic("sound/mega-man-zx/02 Awake.mp3");
 
 	auto closeItem = MenuItemImage::create(
 						"CloseNormal.png",
