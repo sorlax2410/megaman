@@ -35,11 +35,11 @@ bool MainScene::init()
 
 	startGameLabel->setPosition(Vec2(
 			visibleSize.width/2 + origin.x,
-			visibleSize.height + origin.y/2
+			visibleSize.height/3 + origin.y
 	));
 	quitGameLabel->setPosition(Vec2(
 			visibleSize.width/2 + origin.x,
-			visibleSize.height + origin.y
+			visibleSize.height/4 + origin.y
 	));
 	megamanLabel->setPosition(Vec2(
 			visibleSize.width/2 + origin.x,
@@ -49,6 +49,8 @@ bool MainScene::init()
 			visibleSize.width/2 + origin.x/2 + megamanLabel->getContentSize().width/2,
 			visibleSize.height/2 + origin.y - megamanLabel->getContentSize().height
 	));
+
+    
 
 	//adding label as a child to this layer
 	this->addChild(megamanLabel, 2);
@@ -73,3 +75,18 @@ void MainScene::menuCloseCallback(cocos2d::Ref*sender)
 		exit(0);
 	#endif
 }
+
+void MainScene::onExitCallback(cocos2d::Ref *sender) {
+
+    //close the game and quit the application
+    Director::getInstance()->end();
+#if(CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+    exit(0);
+#endif
+}
+
+void MainScene::onStartGameCallback(cocos2d::Ref *sender) {
+
+}
+
+

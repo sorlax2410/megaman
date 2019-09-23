@@ -17,15 +17,159 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b58c1adb-e2f3-4931-9bdb-98df5ce2c016" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Classes/HelloWorldScene.cpp" afterPath="$PROJECT_DIR$/Classes/HelloWorldScene.cpp" />
-      <change beforePath="$PROJECT_DIR$/Classes/screens/main.cpp" afterPath="$PROJECT_DIR$/Classes/screens/main.cpp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/3DS - Project X Zone - Mega Man X(1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/3DS - Project X Zone - Mega Man X.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/3DS - Project X Zone - Zero(1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/Custom Edited - Mega Man X Customs - Mega Man X(2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/Custom Edited - Mega Man X Customs - Mega Man X.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/SNES - Mega Man X - Armored Armadillo Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/SNES - Mega Man X - Boomer Kuwanger Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/SNES - Mega Man X - Flame Mammoth Stage Altered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/SNES - Mega Man X - Flame Mammoth Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/SNES - Mega Man X - Intro Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/SNES - Mega Man X - Launch Octopus Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/SNES - Mega Man X - Sigma Stage 1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/SNES - Mega Man X - Sigma Stage 3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/SNES - Mega Man X - Sigma Stage 4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/SNES - Mega Man X - Spark Mandrill Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/SNES - Mega Man X - Sting Chameleon Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/sprites/megaman zero/title screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/MyGame" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/CloseNormal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/CloseSelected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/HelloWorld.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/fonts/Marker Felt.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/fonts/arial.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/res/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone - Mega Man X(1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone - Mega Man X(2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone - Mega Man X(3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone - Mega Man X(4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone - Mega Man X.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone - Zero(1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone - Zero(2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone - Zero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Aya-me.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Byaku Shin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Ciseaux.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Event Backgrounds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Felicia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Haseo(1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Haseo(Hack.).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Ingrid(street fighter).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - KOS-MOS(Xenosaga).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - KOS-MOS.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Mega Man X &amp; Zero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Mega Man X.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Metal Face.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Nelo Angelo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Nine-Nine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Pyron.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/3DS - Project X Zone 2 - Zagi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/Custom Edited - Mega Man Battle Network Customs - Bass Fire Emblem GBA-Style.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/Custom Edited - Mega Man X Customs - Mega Man X(2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/Custom Edited - Mega Man X Customs - Mega Man X.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/PlayStation - Mega Man X4 - Colonel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/PlayStation - Mega Man X4 - Double.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/PlayStation - Mega Man X4 - Iris.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/PlayStation - Mega Man X4 - Reaper Sigma.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/PlayStation - Mega Man X6 - High Max.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Armored Armadillo Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Boomer Kuwanger Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Effects.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Flame Mammoth Stage Altered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Flame Mammoth Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Intro Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Launch Octopus Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Sigma Stage 1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Sigma Stage 3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Sigma Stage 4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Spark Mandrill Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Sting Chameleon Stage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Storm Eagle Stage Sky.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X - Weapons and Items.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/SNES - Mega Man X2 - Mega Man X Bike.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zero/Game Boy Advance - Mega Man Zero - Copy X.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zero/Game Boy Advance - Mega Man Zero - Fefnir.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zero/Game Boy Advance - Mega Man Zero - Harpuia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zero/Game Boy Advance - Mega Man Zero - Leviathan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zero/Game Boy Advance - Mega Man Zero - Phantom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zero/Game Boy Advance - Mega Man Zero - Seraph Omega X.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zero/Game Boy Advance - Mega Man Zero - Zero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zero/Game Boy Advance - Mega Man Zero 2 - Zero Chain Rod.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zero/Game Boy Advance - Mega Man Zero 4 - Zero - Knuckle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zero/Game Boy Advance - Mega Man Zero 4 - Zero - Specials.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zero/title screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zx/DS DSi - Mega Man ZX - Model PX.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zx/DS DSi - Mega Man ZX - Model Z.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/debug/linux/Resources/sprites/megaman zx/DS DSi - Mega Man ZX - Omega Zero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/.cproject" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/.exportMap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/.tproject" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/Build/appendix.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/Build/basedef.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/Build/build_c.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/Build/build_edc.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/Build/build_po.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/Build/flags.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/Build/funcs.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/Build/makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/Build/makefile.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/Build/platform.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/Build/tooldef.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/build-cfg.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/copy_resource.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/project_def.prop" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/res/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/shared/res/megaman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/src/main.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.tizen/tizen-manifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/App.xaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/App.xaml.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/App.xaml.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Assets/LockScreenLogo.scale-200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Assets/SplashScreen.scale-200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Assets/Square150x150Logo.scale-200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Assets/Square44x44Logo.scale-200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Assets/Square44x44Logo.targetsize-24_altform-unplated.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Assets/StoreLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Assets/Wide310x150Logo.scale-200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Cocos2dEngine/Cocos2dRenderer.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Cocos2dEngine/Cocos2dRenderer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Cocos2dEngine/OpenGLES.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Cocos2dEngine/OpenGLES.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Cocos2dEngine/OpenGLESPage.xaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Cocos2dEngine/OpenGLESPage.xaml.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Cocos2dEngine/OpenGLESPage.xaml.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/Package.appxmanifest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/megaman.vcxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/megaman.vcxproj.filters" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/megaman_TemporaryKey.pfx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/pch.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/pch.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/App/resources.props" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win10/megaman.sln" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win32/build-cfg.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win32/game.rc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win32/main.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win32/main.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win32/megaman.sln" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win32/megaman.vcxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win32/megaman.vcxproj.filters" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win32/megaman.vcxproj.user" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win32/res/game.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.win32/resource.h" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/screens/main.cpp" afterPath="$PROJECT_DIR$/Classes/screens/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/screens/main.h" afterPath="$PROJECT_DIR$/Classes/screens/main.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,19 +179,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="combat.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/screens/combat.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="injured.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/screens/injured.h">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,8 +194,8 @@
       <file leaf-file-name="main.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/screens/main.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="216">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -71,11 +204,12 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Classes/screens/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+            <state relative-caret-position="62">
+              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
-                <element signature="e#2269#2277#0" expanded="true" />
+                <element signature="e#2277#2285#0" expanded="true" />
+                <element signature="e#2482#2490#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,8 +218,8 @@
       <file leaf-file-name="HelloWorldScene.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/HelloWorldScene.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="56" column="38" lean-forward="true" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+            <state relative-caret-position="2898">
+              <caret line="161" column="1" lean-forward="false" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -104,18 +238,30 @@
       <file leaf-file-name="HelloWorldScene.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/HelloWorldScene.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="39" lean-forward="false" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+            <state relative-caret-position="270">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppDelegate.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/AppDelegate.h">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proj.linux/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3312">
+              <caret line="184" column="17" lean-forward="false" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -130,21 +276,26 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add_exe</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Classes/screens/move.h" />
         <option value="$PROJECT_DIR$/Classes/screens/combat.h" />
-        <option value="$PROJECT_DIR$/Classes/screens/main.h" />
         <option value="$PROJECT_DIR$/Classes/screens/injured.h" />
         <option value="$PROJECT_DIR$/Resources/res/mainScreen.xsl" />
         <option value="$PROJECT_DIR$/Resources/res/title screen" />
-        <option value="$PROJECT_DIR$/Classes/screens/main.cpp" />
         <option value="$PROJECT_DIR$/Classes/HelloWorldScene.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Classes/screens/main.h" />
+        <option value="$PROJECT_DIR$/Classes/screens/main.cpp" />
       </list>
     </option>
   </component>
@@ -154,8 +305,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1365" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1" />
     <option name="y" value="-11" />
     <option name="width" value="1368" />
     <option name="height" value="780" />
@@ -196,6 +347,11 @@
             <path>
               <item name="MyGame" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="megaman" type="462c0819:PsiDirectoryNode" />
+              <item name="proj.linux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyGame" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="megaman" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,6 +369,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -226,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyGame">
+  <component name="RunManager" selected="Application.Build All">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
@@ -297,7 +454,15 @@
       <workItem from="1526968893343" duration="1007000" />
       <workItem from="1527037736036" duration="10627000" />
       <workItem from="1527142058775" duration="1385000" />
-      <workItem from="1527173813257" duration="2281000" />
+      <workItem from="1527173813257" duration="3608000" />
+      <workItem from="1527214675949" duration="2413000" />
+      <workItem from="1527788341427" duration="887000" />
+      <workItem from="1527863671286" duration="2648000" />
+      <workItem from="1528560422900" duration="606000" />
+      <workItem from="1532937375919" duration="52000" />
+      <workItem from="1569158464983" duration="8220000" />
+      <workItem from="1569198216955" duration="2489000" />
+      <workItem from="1569226059507" duration="755000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1526870027461</created>
@@ -310,7 +475,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28467000" />
+    <option name="totallyTimeSpent" value="47864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,21 +487,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1365" y="-11" width="1368" height="780" extended-state="6" />
+    <frame x="-1" y="-11" width="1600" height="875" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24571854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6699029" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25546977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6689847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6689847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6699029" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6699029" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47009736" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5210356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51877606" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -409,17 +575,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Classes/screens/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-            <element signature="e#2269#2277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classes/HelloWorldScene.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1980">
@@ -432,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -462,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -480,7 +633,8 @@
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
-            <element signature="e#2269#2277#0" expanded="true" />
+            <element signature="e#2277#2285#0" expanded="true" />
+            <element signature="e#2482#2490#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -497,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -559,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,7 +734,8 @@
           <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
-            <element signature="e#2269#2277#0" expanded="true" />
+            <element signature="e#2277#2285#0" expanded="true" />
+            <element signature="e#2482#2490#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -592,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +812,8 @@
           <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
-            <element signature="e#2269#2277#0" expanded="true" />
+            <element signature="e#2277#2285#0" expanded="true" />
+            <element signature="e#2482#2490#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -681,31 +832,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/platform/CCPlatformMacros.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="109" column="12" lean-forward="false" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj.linux/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cocos2d/cocos/2d/CCMenuItem.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="424" column="26" lean-forward="false" selection-start-line="424" selection-start-column="26" selection-end-line="424" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="171" column="13" lean-forward="false" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -742,22 +872,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/screens/injured.h">
+    <entry file="file://$PROJECT_DIR$/cocos2d/cocos/platform/CCPlatformMacros.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="197">
+          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/screens/main.h">
+    <entry file="file://$PROJECT_DIR$/Resources/sprites/3DS - Project X Zone - Mega Man X(2).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/AppDelegate.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="-82">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/HelloWorldScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2898">
+          <caret line="161" column="1" lean-forward="false" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -772,35 +912,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/HelloWorldScene.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="39" lean-forward="false" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/AppDelegate.h">
+    <entry file="file://$PROJECT_DIR$/proj.linux/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3312">
+          <caret line="184" column="17" lean-forward="false" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/HelloWorldScene.cpp">
+    <entry file="file://$PROJECT_DIR$/Classes/screens/injured.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="56" column="38" lean-forward="true" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        <state relative-caret-position="90">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/screens/main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/screens/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+        <state relative-caret-position="62">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
-            <element signature="e#2269#2277#0" expanded="true" />
+            <element signature="e#2277#2285#0" expanded="true" />
+            <element signature="e#2482#2490#0" expanded="true" />
           </folding>
         </state>
       </provider>

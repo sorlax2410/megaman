@@ -151,6 +151,12 @@ set(BUILD_JS_LIBS OFF CACHE BOOL "turn off build js related targets")
 add_subdirectory(${COCOS2D_ROOT})
 
 
+file(GLOB ALLFILES
+        Classes/*.h
+        Classes/*.cpp
+        screens/*.h
+        screens/*.cpp)
+
 # MyGame
 if( ANDROID )
     add_library(${APP_NAME} SHARED ${GAME_SRC} ${GAME_HEADERS})
@@ -158,7 +164,7 @@ if( ANDROID )
         ADD_CUSTOM_COMMAND(TARGET ${APP_NAME} POST_BUILD COMMAND ${CMAKE_STRIP} lib${APP_NAME}.so)
     ENDIF()
 else()
-    add_executable(${APP_NAME} ${GAME_SRC} ${GAME_HEADERS})
+    add_executable(${APP_NAME} ${GAME_SRC} ${GAME_HEADERS} ${ALL_FILES})
 endif()
 
 target_link_libraries(${APP_NAME} cocos2d)
